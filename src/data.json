@@ -1,0 +1,498 @@
+{
+ "BANDS": [
+  {
+   "n": "Training &amp; Capacity Building",
+   "s": "Workshops, conferences, coaching, business development",
+   "d": "Design and delivery of professional development programmes, from a single workshop to a national summit — including branding, marketing and the sale of programmes and events.",
+   "c": [
+    "Workshops and seminars",
+    "Conferences and summits",
+    "Coaching programmes",
+    "Professional development",
+    "Business development",
+    "Branding and marketing",
+    "Programme and event sales"
+   ]
+  },
+  {
+   "n": "Information &amp; Communications Technology",
+   "s": "Cybersecurity, software, hardware, data centres, cloud, AI",
+   "d": "Securing and building systems, supplying and maintaining the hardware they run on, and turning the data they produce into something decision-makers can use.",
+   "c": [
+    "Cybersecurity solutions",
+    "Software and application development",
+    "Hardware sales and installation",
+    "Maintenance and repairs",
+    "Data centre operations",
+    "Cloud computing",
+    "Data analytics",
+    "Artificial intelligence and machine learning"
+   ]
+  },
+  {
+   "n": "Renewable Energy &amp; Industrial Projects",
+   "s": "Solar, wind, methanol and bio-ethanol plants",
+   "d": "Design, construction, operation and management of sustainable energy and industrial facilities — from rooftop and ground-mounted solar to process plants.",
+   "c": [
+    "Solar power systems",
+    "Wind energy solutions",
+    "Methanol plants",
+    "Bio-ethanol plants",
+    "Sustainable energy projects",
+    "Industrial infrastructure",
+    "Plant operation and management"
+   ]
+  },
+  {
+   "n": "Security &amp; Safety Systems",
+   "s": "Access control, CCTV, fire systems, fencing, elevators",
+   "d": "Supply, installation, maintenance and management of physical security and life-safety systems for estates, facilities and institutional sites.",
+   "c": [
+    "Access control hardware and software",
+    "CCTV systems",
+    "Perimeter fencing",
+    "Burglary alarm systems",
+    "Fire prevention systems",
+    "Fire-fighting systems",
+    "Elevators and escalators"
+   ]
+  },
+  {
+   "n": "Media &amp; Communications",
+   "s": "Broadcast stations, production, content, distribution",
+   "d": "Media consultancy plus the technical side of broadcasting: designing, installing and managing terrestrial and online audio and visual stations, and producing what runs on them.",
+   "c": [
+    "Media consultancy",
+    "Broadcast station design and installation",
+    "Station management",
+    "Content development",
+    "Programme production",
+    "Digital media distribution"
+   ]
+  },
+  {
+   "n": "Environment, Agriculture &amp; Sanitation",
+   "s": "Nurseries, orchards, watersheds, smart agriculture",
+   "d": "Environmental and agricultural projects that need both groundwork and systems — from establishing and managing plantings to deploying sensing and monitoring on working farms.",
+   "c": [
+    "Plant nurseries",
+    "Orchards",
+    "Watershed management",
+    "Smart agriculture solutions",
+    "Sanitation operations",
+    "Toilet facility management",
+    "Environmental projects"
+   ]
+  },
+  {
+   "n": "Real Estate &amp; Property Development",
+   "s": "Smart estates, farm estates, mixed-use, management",
+   "d": "Design, construction, management and development of residential, agricultural and mixed-use property — with power, security and connectivity designed in rather than retrofitted.",
+   "c": [
+    "Smart residential estates",
+    "Farm estates",
+    "Mixed-use developments",
+    "Property design and construction",
+    "Development management",
+    "Property management services"
+   ]
+  }
+ ],
+ "DETAIL": {
+  "0": {
+   "slug": "training",
+   "tag": "Programmes that change how people work",
+   "intro": [
+    "From a single workshop to a national summit, we design the content, run the logistics and report on what changed. Our largest programme to date was convened with federal partners and reached youth leaders across the country.",
+    "Training is also built into every other division. When we install a system, your operators learn to run it before we leave site."
+   ],
+   "steps": [
+    [
+     "Scope and audience",
+     "Who is being trained, what they need to be able to do afterwards, and how success will be measured."
+    ],
+    [
+     "Design and content",
+     "Curriculum, materials, facilitators and the schedule, built around the audience rather than an off-the-shelf deck."
+    ],
+    [
+     "Delivery and logistics",
+     "Venue, equipment, registration, catering and the run of show — on site or at our facilities."
+    ],
+    [
+     "Report and follow-up",
+     "Attendance, assessment results and a written report, plus follow-up sessions where the programme calls for it."
+    ]
+   ],
+   "clients": [
+    "Federal agencies and ministries",
+    "State governments",
+    "Corporate learning teams",
+    "Professional associations",
+    "NGOs and development partners"
+   ]
+  },
+  "1": {
+   "slug": "ict",
+   "tag": "Systems built, secured and kept running",
+   "intro": [
+    "We cover the full stack: the network and hardware underneath, the software on top, the security around it, and the analytics that make sense of what it produces.",
+    "Deployments come with as-built documentation, an asset register and operator training, so your team is not dependent on a vendor for routine work."
+   ],
+   "steps": [
+    [
+     "Survey and requirements",
+     "Site walk, inventory of what exists, and a written statement of what the system has to do."
+    ],
+    [
+     "Design and specification",
+     "Architecture, bill of materials and a costed proposal you can take to procurement."
+    ],
+    [
+     "Build and deploy",
+     "Installation, configuration, data migration and testing, with progress reporting throughout."
+    ],
+    [
+     "Support and maintain",
+     "Defined response times, scheduled maintenance and a named engineer who knows your deployment."
+    ]
+   ],
+   "clients": [
+    "Government agencies",
+    "Hospitals and clinics",
+    "Schools and tertiary institutions",
+    "Banks and financial services",
+    "SMEs and corporates"
+   ]
+  },
+  "2": {
+   "slug": "energy",
+   "tag": "Power that does not depend on the grid",
+   "intro": [
+    "Solar and wind systems sized against an actual load profile, plus larger industrial projects including methanol and bio-ethanol plants.",
+    "We measure consumption before specifying anything. An undersized system disappoints within a month and an oversized one wastes capital that was hard to raise."
+   ],
+   "steps": [
+    [
+     "Load assessment",
+     "Metering and analysis of what the site actually consumes, by hour and by season."
+    ],
+    [
+     "System design",
+     "Array, storage and inverter sizing, structural checks and a projected output figure you can hold us to."
+    ],
+    [
+     "Installation and commissioning",
+     "Mounting, wiring, protection, testing and handover with full documentation."
+    ],
+    [
+     "Monitoring and maintenance",
+     "Output monitoring, scheduled cleaning and servicing, and battery health reporting."
+    ]
+   ],
+   "clients": [
+    "Estates and residential developments",
+    "Hospitals and clinics",
+    "Schools",
+    "Industrial facilities",
+    "Government buildings"
+   ]
+  },
+  "3": {
+   "slug": "security",
+   "tag": "Protection you can audit, not just install",
+   "intro": [
+    "Access control, CCTV, alarms, perimeter and fire systems — specified for the site, installed properly and maintained on a schedule rather than after an incident.",
+    "Elevators and escalators sit in the same life-safety regime and need the same inspection discipline, so we handle those too."
+   ],
+   "steps": [
+    [
+     "Risk and site assessment",
+     "Walk the site, identify exposure and agree what the system needs to prevent or record."
+    ],
+    [
+     "System specification",
+     "Camera positions, coverage maps, door schedules, detection zones and a costed bill of materials."
+    ],
+    [
+     "Installation and integration",
+     "Containment, cabling, devices and head-end, integrated so one operator can see everything."
+    ],
+    [
+     "Testing and scheduled service",
+     "Commissioning tests, operator training, and a maintenance schedule with documented inspections."
+    ]
+   ],
+   "clients": [
+    "Residential estates",
+    "Banks and corporate offices",
+    "Government facilities",
+    "Schools and hospitals",
+    "Industrial sites"
+   ]
+  },
+  "4": {
+   "slug": "media",
+   "tag": "Build the station, then fill the schedule",
+   "intro": [
+    "The technical side — designing, installing and managing terrestrial and online audio and visual broadcast stations — and the editorial side: content development, programme production and digital distribution.",
+    "Media consultancy for organisations that need to reach a public audience but have no intention of running a station themselves."
+   ],
+   "steps": [
+    [
+     "Consultancy and strategy",
+     "Audience, platform and format decisions before any equipment is specified."
+    ],
+    [
+     "Studio and station build",
+     "Acoustics, equipment, transmission chain and online infrastructure, installed and tested."
+    ],
+    [
+     "Content and production",
+     "Programme formats, production schedule and the crew to deliver them."
+    ],
+    [
+     "Distribution and management",
+     "Transmission, online distribution, archiving, and ongoing station management if you want it run for you."
+    ]
+   ],
+   "clients": [
+    "Broadcasters",
+    "Government communication units",
+    "Faith organisations",
+    "Educational institutions",
+    "Corporate communications teams"
+   ]
+  },
+  "5": {
+   "slug": "environment",
+   "tag": "Groundwork, and the systems that monitor it",
+   "intro": [
+    "Nurseries, orchards and watershed work, plus smart agriculture: sensing, monitoring and data collection on working farms.",
+    "Sanitation operations including the establishment and management of toilet facilities for public and commercial sites."
+   ],
+   "steps": [
+    [
+     "Site and soil assessment",
+     "Survey, soil testing and water availability, with a written statement of what the site can support."
+    ],
+    [
+     "Plan and specification",
+     "Species selection, layout, irrigation and the monitoring to be installed."
+    ],
+    [
+     "Establishment and build",
+     "Planting, infrastructure, fencing and installation of sensing equipment."
+    ],
+    [
+     "Management and monitoring",
+     "Ongoing maintenance, yield and condition reporting, and adjustment as the site matures."
+    ]
+   ],
+   "clients": [
+    "State agriculture ministries",
+    "Commercial farms",
+    "Development partners",
+    "Local governments",
+    "Estate developers"
+   ]
+  },
+  "6": {
+   "slug": "property",
+   "tag": "Estates with the services designed in",
+   "intro": [
+    "Smart residential estates, farm estates and mixed-use developments — designed, built, managed and developed.",
+    "Because we also deliver power, security and connectivity, those services are specified at design stage instead of being retrofitted after handover at twice the cost."
+   ],
+   "steps": [
+    [
+     "Land and feasibility",
+     "Title checks, site survey, and a feasibility study covering cost, demand and services."
+    ],
+    [
+     "Masterplan and design",
+     "Layout, unit mix, services routing and approvals, with energy and security designed in from the start."
+    ],
+    [
+     "Construction and services",
+     "Civil works, buildings, roads, drainage, power, security systems and connectivity."
+    ],
+    [
+     "Handover and management",
+     "Allocation, documentation, and ongoing facility and property management services."
+    ]
+   ],
+   "clients": [
+    "Private developers",
+    "Cooperative societies",
+    "Diaspora investors",
+    "Government housing schemes",
+    "Corporate land owners"
+   ]
+  }
+ },
+ "PACKS": [
+  {
+   "n": "Supply &amp; Install",
+   "sub": "Equipment delivered and commissioned",
+   "meta": [
+    "Defined scope",
+    "Fixed price",
+    "Warranty included"
+   ],
+   "li": [
+    "Specification and sourcing to your requirement",
+    "Delivery, installation and commissioning",
+    "Asset register and as-built documentation",
+    "Handover training for your operators",
+    "Warranty handling with the manufacturer"
+   ]
+  },
+  {
+   "n": "Turnkey Project",
+   "sub": "Design through to handover",
+   "lead": true,
+   "meta": [
+    "Multi-division",
+    "Milestone billing",
+    "Single contract"
+   ],
+   "li": [
+    "Site survey, design and written scope",
+    "All trades coordinated under one contract",
+    "Project management and progress reporting",
+    "Testing, commissioning and full documentation",
+    "Operator training and 12-month defects support"
+   ]
+  },
+  {
+   "n": "Managed Programme",
+   "sub": "We run it after it is built",
+   "meta": [
+    "Ongoing",
+    "Service levels",
+    "Named engineer"
+   ],
+   "li": [
+    "Everything in the turnkey model",
+    "Scheduled preventive maintenance",
+    "Defined response times for faults",
+    "Named engineer who knows your installation",
+    "Quarterly performance and condition reporting"
+   ]
+  }
+ ],
+ "PROJECTS": [
+  {
+   "c": "Federal partners",
+   "m": "2026 · Abuja FCT",
+   "dv": "Training &amp; Capacity Building",
+   "t": "Youth Leadership Engagement Summit",
+   "d": "Convened in conjunction with the Nigerian Youth Parliament and in collaboration with the Federal Ministry of Youth Development and the National Orientation Agency. Designed to bring youth leaders and influencers from across the country into direct dialogue with federal policy and programmes.",
+   "g": [
+    "Programme design",
+    "Stakeholder mobilisation",
+    "National reach"
+   ]
+  },
+  {
+   "c": "Client name",
+   "m": "Placeholder",
+   "dv": "Renewable Energy",
+   "t": "Solar installation project",
+   "d": "Replace with a real engagement: site, system size, what it replaced and what it now powers.",
+   "g": [
+    "Solar",
+    "Installation",
+    "Maintenance"
+   ]
+  },
+  {
+   "c": "Client name",
+   "m": "Placeholder",
+   "dv": "Security &amp; Safety Systems",
+   "t": "Facility security systems deployment",
+   "d": "Replace with a real engagement: site, systems installed and the coverage achieved.",
+   "g": [
+    "CCTV",
+    "Access control",
+    "Fire systems"
+   ]
+  },
+  {
+   "c": "Client name",
+   "m": "Placeholder",
+   "dv": "ICT",
+   "t": "Software platform build",
+   "d": "Replace with a real engagement: the process it replaced, users served and what shipped.",
+   "g": [
+    "Software",
+    "Integration",
+    "Training"
+   ]
+  },
+  {
+   "c": "Client name",
+   "m": "Placeholder",
+   "dv": "Real Estate",
+   "t": "Smart estate development",
+   "d": "Replace with a real engagement: units, services designed in, and current stage.",
+   "g": [
+    "Estate",
+    "Infrastructure",
+    "Management"
+   ]
+  }
+ ],
+ "NEWS": [
+  {
+   "m": "14 October 2026",
+   "t": "USSL submits Youth Leadership Engagement Summit proposal to NITDA",
+   "d": "The company formally presented the Summit programme and budget to the National Information Technology Development Agency for consideration and support."
+  },
+  {
+   "m": "Placeholder",
+   "t": "Second article headline goes here",
+   "d": "Replace with real news. Short posts work best: what happened, who it was for, and what it means for the people reading."
+  },
+  {
+   "m": "Placeholder",
+   "t": "Third article headline goes here",
+   "d": "Replace with real news. Keep each entry to two or three sentences and link to a full page if there is more to say."
+  }
+ ],
+ "TEAM": [
+  {
+   "n": "Ja'afar Bala Farouq",
+   "r": "Principal Partner / Chief Operating Officer",
+   "d": "Leads company operations and federal engagements, including programme design and delivery with government partners."
+  },
+  {
+   "n": "Name",
+   "r": "Role title",
+   "d": "Placeholder. Replace with a real team member: what they lead, their background, and the engagements they run."
+  },
+  {
+   "n": "Name",
+   "r": "Role title",
+   "d": "Placeholder. Replace with a real team member. Three to six people reads well on this layout."
+  }
+ ],
+ "JOBS": [
+  {
+   "m": "Kaduna · Full time",
+   "t": "Solar Installation Technician",
+   "d": "Placeholder role. Install and commission solar systems across client sites. Replace with real requirements and how to apply."
+  },
+  {
+   "m": "Abuja FCT · Full time",
+   "t": "Software Developer",
+   "d": "Placeholder role. Build and maintain client platforms and internal tools. Replace with the real stack and experience level."
+  },
+  {
+   "m": "Either office · Contract",
+   "t": "Security Systems Engineer",
+   "d": "Placeholder role. Deploy and service CCTV, access control and fire systems. Replace with real requirements."
+  }
+ ]
+}

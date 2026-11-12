@@ -1,0 +1,14 @@
+# build artefacts
+*.zip
+
+# editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# local tooling
+node_modules/
+__pycache__/
+.netlify/
+.vercel/
