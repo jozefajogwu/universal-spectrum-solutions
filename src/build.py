@@ -728,6 +728,13 @@ sm.append('</urlset>')
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
+# the generator ships in the repo so the site can be rebuilt, but it has no
+# business being fetchable over HTTP
+[[redirects]]
+  from = "/src/*"
+  to = "/404.html"
+  status = 404
+
 [[redirects]]
   from = "/team/"
   to = "/about/#leadership"
