@@ -734,6 +734,7 @@ sm.append('</urlset>')
   from = "/src/*"
   to = "/404.html"
   status = 404
+  force = true
 
 [[redirects]]
   from = "/team/"
