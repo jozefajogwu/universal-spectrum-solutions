@@ -468,9 +468,12 @@
    "d": "Leads company operations and federal engagements, including programme design and delivery with government partners."
   },
   {
-   "n": "Name",
-   "r": "Role title",
-   "d": "Placeholder. Replace with a real team member: what they lead, their background, and the engagements they run."
+   "i": "JJ",
+   "n": "Ja'afar faruq Ja'afar",
+   "r": "Chief Technical Officer",
+   "d": "Leads the company's technology work — the ICT division, and the systems side of engagements across the other six.",
+   "img": "team-jaafar-faruq.jpg",
+   "img_sm": "team-jaafar-faruq-sm.jpg"
   },
   {
    "n": "Name",

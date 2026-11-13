@@ -43,9 +43,15 @@ STAR = ('<svg class="{c}" viewBox="0 0 200 200" aria-hidden="true"><path fill="#
         'd="M100 0l12 56 40-40-20 52 56-12-48 32 48 32-56-12 20 52-40-40-12 56-12-56-40 40 '
         '20-52-56 12 48-32-48-32 56 12-20-52 40 40z"/></svg>')
 
-def img_block(src, alt, w, h, small=None, style=""):
+def img_block(src, alt, w, h, small=None, small_w=None, sizes=None, style=""):
+    """A real photograph. `w`/`h` are the file's true pixel dimensions, so the
+    srcset widths have to match them or the browser picks the wrong file."""
     st = f' style="{style}"' if style else ''
-    srcset = f' srcset="/assets/{small} 640w, /assets/{src} 1140w" sizes="(max-width:700px) 92vw, 46vw"' if small else ''
+    srcset = ''
+    if small:
+        sw = small_w or round(w * 0.56)
+        sz = sizes or '(max-width:700px) 92vw, 46vw'
+        srcset = f' srcset="/assets/{small} {sw}w, /assets/{src} {w}w" sizes="{sz}"'
     return (f'<div class="img-block"{st}>'
             f'<img src="/assets/{src}"{srcset} width="{w}" height="{h}" '
             f'loading="lazy" decoding="async" alt="{alt}"></div>')
@@ -354,7 +360,13 @@ def about():
             ("One point of accountability", "A single contract and a named lead from scope to handover."),
             ("We stay after", "Maintenance with defined response times and a named engineer.")]
     caps = ''.join(f'<div class="cap"><span class="d"></span><span><b>{t}</b><br><span style="color:var(--muted);font-weight:400;font-size:.9rem">{d}</span></span></div>' for t, d in vals)
-    ppl = ''.join(f'<div class="person">{photo("Portrait — 600×700")}<div class="body">'
+    def portrait(p):
+        if p.get("img"):
+            return img_block(p["img"], f'Portrait of {un(p["n"])}, {un(p["r"])}',
+                             600, 700, p.get("img_sm"), 360,
+                             '(max-width:700px) 92vw, (max-width:980px) 46vw, 31vw')
+        return photo("Portrait — 600×700")
+    ppl = ''.join(f'<div class="person">{portrait(p)}<div class="body">'
                   f'<h3>{un(p["n"])}</h3><div class="role">{un(p["r"])}</div><p>{un(p["d"])}</p></div></div>' for p in TEAM)
     body = banner("About the company", "A Nigerian company built for multi-sector delivery",
                   "Incorporated under RC 9113492, operating across seven sectors from Kaduna and Abuja.") + f"""
@@ -368,7 +380,7 @@ def about():
         <a class="pill" href="/divisions/">See the divisions <span class="dot">&#8599;</span></a>
       </div>
     </div>
-    {img_block("about-overview.jpg", "A business professional reviewing project information on a tablet in an office lobby", 1140, 840, "about-overview-sm.jpg")}
+    {img_block("about-overview.jpg", "A business professional reviewing project information on a tablet in an office lobby", 1140, 840, "about-overview-sm.jpg", 640)}
   </div>
 </section>
 
@@ -629,7 +641,13 @@ def careers():
                  'Open roles for engineers, technicians and programme staff across our seven divisions in Kaduna and Abuja.', body)
 
 def team():
-    ppl = ''.join(f'<div class="person">{photo("Portrait — 600×700")}<div class="body">'
+    def portrait(p):
+        if p.get("img"):
+            return img_block(p["img"], f'Portrait of {un(p["n"])}, {un(p["r"])}',
+                             600, 700, p.get("img_sm"), 360,
+                             '(max-width:700px) 92vw, (max-width:980px) 46vw, 31vw')
+        return photo("Portrait — 600×700")
+    ppl = ''.join(f'<div class="person">{portrait(p)}<div class="body">'
                   f'<h3>{un(p["n"])}</h3><div class="role">{un(p["r"])}</div><p>{un(p["d"])}</p></div></div>' for p in TEAM)
     body = banner("Leadership", "The people on your engagement",
                   "Senior staff stay on a project from scope to handover.") + \
