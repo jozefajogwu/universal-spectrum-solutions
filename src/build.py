@@ -363,11 +363,13 @@ def about():
     def portrait(p):
         if p.get("img"):
             return img_block(p["img"], f'Portrait of {un(p["n"])}, {un(p["r"])}',
-                             600, 700, p.get("img_sm"), 360,
+                             p.get("img_width", 600), p.get("img_height", 700), p.get("img_sm"), 360,
                              '(max-width:700px) 92vw, (max-width:980px) 46vw, 31vw')
         return photo("Portrait — 600×700")
     ppl = ''.join(f'<div class="person">{portrait(p)}<div class="body">'
-                  f'<h3>{un(p["n"])}</h3><div class="role">{un(p["r"])}</div><p>{un(p["d"])}</p></div></div>' for p in TEAM)
+                  f'<h3>{esc(p["n"])}</h3><div class="role">{esc(p["r"])}</div>'
+                  + ''.join(f'<p>{esc(paragraph)}</p>' for paragraph in p["d"].split('\n\n'))
+                  + '</div></div>' for p in TEAM)
     body = banner("About the company", "A Nigerian company built for multi-sector delivery",
                   "Incorporated under RC 9113492, operating across seven sectors from Kaduna and Abuja.") + f"""
 <section>
@@ -644,11 +646,13 @@ def team():
     def portrait(p):
         if p.get("img"):
             return img_block(p["img"], f'Portrait of {un(p["n"])}, {un(p["r"])}',
-                             600, 700, p.get("img_sm"), 360,
+                             p.get("img_width", 600), p.get("img_height", 700), p.get("img_sm"), 360,
                              '(max-width:700px) 92vw, (max-width:980px) 46vw, 31vw')
         return photo("Portrait — 600×700")
     ppl = ''.join(f'<div class="person">{portrait(p)}<div class="body">'
-                  f'<h3>{un(p["n"])}</h3><div class="role">{un(p["r"])}</div><p>{un(p["d"])}</p></div></div>' for p in TEAM)
+                  f'<h3>{esc(p["n"])}</h3><div class="role">{esc(p["r"])}</div>'
+                  + ''.join(f'<p>{esc(paragraph)}</p>' for paragraph in p["d"].split('\n\n'))
+                  + '</div></div>' for p in TEAM)
     body = banner("Leadership", "The people on your engagement",
                   "Senior staff stay on a project from scope to handover.") + \
         f'<section><div class="wrap"><div class="people">{ppl}</div></div></section>'
